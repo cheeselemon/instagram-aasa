@@ -13,6 +13,20 @@ The Apple App Site Association (AASA) file is a publicly accessible document tha
 ## File Structure
 - `instagram/apple-app-site-association`: Instagram's AASA file 
 
+## Contributing
+Contributions are welcome! Here's how you can contribute:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+Please make sure your PR description clearly describes the changes and their purpose.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Disclaimer
 
 ### 1. Educational Purpose & Non-Affiliation
