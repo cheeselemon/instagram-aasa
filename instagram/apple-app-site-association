@@ -1,0 +1,607 @@
+{
+  "activitycontinuation": {
+    "apps": [
+      "MH9GU9K5PX.com.burbn.instagram",
+      "3NW3KR6Q88.com.facebook.InstagramInHouse"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "MH9GU9K5PX.com.burbn.instagram",
+      "3NW3KR6Q88.com.facebook.InstagramInHouse",
+      "MH9GU9K5PX.com.burbn.basel.localDevelopment",
+      "3NW3KR6Q88.com.burbn.basel.master",
+      "3NW3KR6Q88.com.burbn.basel.rc",
+      "MH9GU9K5PX.com.burbn.basel",
+      "MH9GU9K5PX.com.burbn.prime.localDevelopment",
+      "3NW3KR6Q88.com.burbn.prime.master",
+      "3NW3KR6Q88.com.burbn.prime.rc",
+      "MH9GU9K5PX.com.burbn.prime"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "3NW3KR6Q88.com.facebook.InstagramInHouse",
+          "MH9GU9K5PX.com.burbn.instagram"
+        ],
+        "components": [
+          {
+            "#": "weblink",
+            "exclude": true,
+            "comment": "exclude uri's with weblink fragment"
+          },
+          {
+            "?": {
+              "short_redirect": "?*"
+            },
+            "exclude": true,
+            "comment": "exclude uri's with short_redirect parameter from deeplinks"
+          },
+          {
+            "/": "/about/*",
+            "exclude": true
+          },
+          {
+            "/": "/creators/creator_programs/*"
+          },
+          {
+            "/": "/linking/facebook_page_onboarding/*"
+          },
+          {
+            "/": "/creators/*",
+            "exclude": true
+          },
+          {
+            "/": "/developer/*",
+            "exclude": true
+          },
+          {
+            "/": "/press/*",
+            "exclude": true
+          },
+          {
+            "/": "/help/*",
+            "exclude": true
+          },
+          {
+            "/": "/media/*",
+            "exclude": true
+          },
+          {
+            "/": "/ads/*",
+            "exclude": true
+          },
+          {
+            "/": "/getapp/*",
+            "exclude": true
+          },
+          {
+            "/": "/support/*",
+            "exclude": true
+          },
+          {
+            "/": "/blog/*",
+            "exclude": true
+          },
+          {
+            "/": "/developers/*",
+            "exclude": true
+          },
+          {
+            "/": "/weibo/*",
+            "exclude": true
+          },
+          {
+            "/": "/mixi/*",
+            "exclude": true
+          },
+          {
+            "/": "/community/*",
+            "exclude": true
+          },
+          {
+            "/": "/internal/*",
+            "exclude": true
+          },
+          {
+            "/": "/security/*",
+            "exclude": true
+          },
+          {
+            "/": "/xwoiynko/*",
+            "exclude": true
+          },
+          {
+            "/": "/about-ads/*",
+            "exclude": true
+          },
+          {
+            "/": "/client_error/*",
+            "exclude": true
+          },
+          {
+            "/": "/challenge/*",
+            "exclude": true
+          },
+          {
+            "/": "/componentexplorer/*",
+            "exclude": true
+          },
+          {
+            "/": "/research/*",
+            "exclude": true
+          },
+          {
+            "/": "/instameets/*",
+            "exclude": true
+          },
+          {
+            "/": "/android/*",
+            "exclude": true
+          },
+          {
+            "/": "/legal/*",
+            "exclude": true
+          },
+          {
+            "/": "/business/*",
+            "exclude": true
+          },
+          {
+            "/": "/oauth/authorize/*",
+            "exclude": true
+          },
+          {
+            "/": "/oauth/accesstoken/*",
+            "exclude": true
+          },
+          {
+            "/": "/_n/emaillogin/*",
+            "exclude": true
+          },
+          {
+            "/": "/_n/smslogin/*",
+            "exclude": true
+          },
+          {
+            "/": "/_n/web_smslogin/*",
+            "exclude": true
+          },
+          {
+            "/": "/_n/web_emaillogin/*",
+            "exclude": true
+          },
+          {
+            "/": "/download/*",
+            "exclude": true
+          },
+          {
+            "/": "/emails/*",
+            "exclude": true
+          },
+          {
+            "/": "/enoozer/*",
+            "exclude": true
+          },
+          {
+            "/": "/terms/*",
+            "exclude": true
+          },
+          {
+            "/": "/nametag/*",
+            "exclude": true
+          },
+          {
+            "/": "/donate/*",
+            "exclude": true
+          },
+          {
+            "/": "/fxcal/auth/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts_center/*",
+            "exclude": true
+          },
+          {
+            "/": "/fxcal/consent/*",
+            "exclude": true
+          },
+          {
+            "/": "/wifiauth/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/signup/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/disavow/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/hacked_lock_redirect/*",
+            "exclude": true
+          },
+          {
+            "/": "/payments/redirect_from_paypal/*",
+            "exclude": true
+          },
+          {
+            "/": "/threads/sso/*",
+            "exclude": true
+          },
+          {
+            "/": "/payments/3ds_cardinal_init/*",
+            "exclude": true
+          },
+          {
+            "/": "/payments/3ds_cardinal_stepup_complete/*",
+            "exclude": true
+          },
+          {
+            "/": "/account/*",
+            "exclude": true
+          },
+          {
+            "/": "/fbsurvey/confirm_user/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/login/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/log_in/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/*/confirm_support_request/*",
+            "exclude": true
+          },
+          {
+            "/": "/accounts/password/reset/confirm/*"
+          },
+          {
+            "/": "/accounts/password/reset/*",
+            "exclude": true
+          },
+          {
+            "/": "/aymh/redirect-cycle/*",
+            "exclude": true
+          },
+          {
+            "/": "/*/links/*",
+            "exclude": true
+          },
+          {
+            "/": "/web/*",
+            "exclude": true
+          },
+          {
+            "/": "/b/*",
+            "exclude": true
+          },
+          {
+            "/": "/*"
+          },
+          {
+            "/": "/preferred_businesses/link_account/*"
+          },
+          {
+            "/": "/spotify-login-callback/*"
+          },
+          {
+            "/": "/oauth/oidc/*",
+            "exclude": true
+          },
+          {
+            "/": "/oauth_account_linking/test_universal_links/*"
+          },
+          {
+            "/": "/oauth_account_linking_mobile/login_redirect/*"
+          },
+          {
+            "/": "/fbsurvey/authorize_user/*",
+            "exclude": true
+          },
+          {
+            "/": "/fbsurvey/authorization_complete/*",
+            "exclude": true
+          },
+          {
+            "/": "/sandwich_survey/redirect/*"
+          }
+        ]
+      },
+      {
+        "appID": "3NW3KR6Q88.com.facebook.InstagramInHouse",
+        "paths": [
+          "NOT /about/*",
+          "NOT /about",
+          "NOT /creators/*",
+          "NOT /creators",
+          "NOT /developer/*",
+          "NOT /developer",
+          "NOT /press/*",
+          "NOT /press",
+          "NOT /help/*",
+          "NOT /help",
+          "NOT /media/*",
+          "NOT /media",
+          "NOT /ads/*",
+          "NOT /ads",
+          "NOT /getapp/*",
+          "NOT /getapp",
+          "NOT /support/*",
+          "NOT /support",
+          "NOT /blog/*",
+          "NOT /blog",
+          "NOT /developers/*",
+          "NOT /developers",
+          "NOT /weibo/*",
+          "NOT /weibo",
+          "NOT /mixi/*",
+          "NOT /mixi",
+          "NOT /community/*",
+          "NOT /community",
+          "NOT /internal/*",
+          "NOT /internal",
+          "NOT /security/*",
+          "NOT /security",
+          "NOT /xwoiynko/*",
+          "NOT /xwoiynko",
+          "NOT /about-ads/*",
+          "NOT /about-ads",
+          "NOT /challenge/*",
+          "NOT /challenge",
+          "NOT /client_error/*",
+          "NOT /client_error",
+          "NOT /componentexplorer/*",
+          "NOT /componentexplorer",
+          "NOT /research/*",
+          "NOT /research",
+          "NOT /instameets/*",
+          "NOT /instameets",
+          "NOT /android/*",
+          "NOT /android",
+          "NOT /legal/*",
+          "NOT /legal",
+          "NOT /business/*",
+          "NOT /business",
+          "NOT /oauth/authorize/*",
+          "NOT /oauth/authorize",
+          "NOT /oauth/accesstoken/*",
+          "NOT /oauth/accesstoken",
+          "NOT /_n/emaillogin/*",
+          "NOT /_n/emaillogin",
+          "NOT /_n/smslogin/*",
+          "NOT /_n/smslogin",
+          "NOT /_n/web_smslogin/*",
+          "NOT /_n/web_smslogin",
+          "NOT /_n/web_emaillogin/*",
+          "NOT /_n/web_emaillogin",
+          "NOT /download/*",
+          "NOT /download",
+          "NOT /emails/*",
+          "NOT /emails",
+          "NOT /enoozer/*",
+          "NOT /enoozer",
+          "NOT /terms/*",
+          "NOT /terms",
+          "NOT /nametag/*",
+          "NOT /nametag",
+          "NOT /donate/*",
+          "NOT /donate",
+          "NOT /fxcal/auth/*",
+          "NOT /fxcal/auth",
+          "NOT /fxcal/reauth_login",
+          "NOT /accounts_center/*",
+          "NOT /accounts_center",
+          "NOT /fxcal/consent/*",
+          "NOT /fxcal/consent",
+          "NOT /wifiauth/*",
+          "NOT /wifiauth",
+          "NOT /accounts/signup/*",
+          "NOT /accounts/signup",
+          "NOT /accounts/disavow/*",
+          "NOT /accounts/disavow",
+          "NOT /accounts/hacked_lock_redirect/*",
+          "NOT /accounts/hacked_lock_redirect",
+          "NOT /payments/redirect_from_paypal/*",
+          "NOT /payments/redirect_from_paypal",
+          "NOT /threads/sso/*",
+          "NOT /threads/sso",
+          "NOT /payments/3ds_cardinal_init/*",
+          "NOT /payments/3ds_cardinal_init/",
+          "NOT /payments/3ds_cardinal_stepup_complete/*",
+          "NOT /payments/3ds_cardinal_stepup_complete/",
+          "NOT /account/*",
+          "NOT /account",
+          "NOT /accounts/login/*",
+          "NOT /accounts/login",
+          "NOT /accounts/log_in/*",
+          "NOT /accounts/log_in",
+          "NOT /aymh/redirect-cycle/*",
+          "NOT /aymh/redirect-cycle",
+          "NOT /accounts/*/confirm_support_request/*",
+          "NOT /accounts/*/confirm_support_request",
+          "NOT /*/links/*",
+          "NOT /*/links",
+          "NOT /web/*",
+          "NOT /web",
+          "NOT /b/*",
+          "NOT /oauth/oidc/*",
+          "NOT /oauth/oidc",
+          "NOT /fbsurvey/authorize_user/*",
+          "NOT /fbsurvey/authorization_complete/*",
+          "NOT /fbsurvey/confirm_user/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "MH9GU9K5PX.com.burbn.instagram",
+        "paths": [
+          "NOT /about/*",
+          "NOT /about",
+          "NOT /creators/*",
+          "NOT /creators",
+          "NOT /developer/*",
+          "NOT /developer",
+          "NOT /press/*",
+          "NOT /press",
+          "NOT /help/*",
+          "NOT /help",
+          "NOT /media/*",
+          "NOT /media",
+          "NOT /ads/*",
+          "NOT /ads",
+          "NOT /getapp/*",
+          "NOT /getapp",
+          "NOT /support/*",
+          "NOT /support",
+          "NOT /blog/*",
+          "NOT /blog",
+          "NOT /developers/*",
+          "NOT /developers",
+          "NOT /weibo/*",
+          "NOT /weibo",
+          "NOT /mixi/*",
+          "NOT /mixi",
+          "NOT /community/*",
+          "NOT /community",
+          "NOT /internal/*",
+          "NOT /internal",
+          "NOT /security/*",
+          "NOT /security",
+          "NOT /xwoiynko/*",
+          "NOT /xwoiynko",
+          "NOT /about-ads/*",
+          "NOT /about-ads",
+          "NOT /challenge/*",
+          "NOT /challenge",
+          "NOT /client_error/*",
+          "NOT /client_error",
+          "NOT /componentexplorer/*",
+          "NOT /componentexplorer",
+          "NOT /research/*",
+          "NOT /research",
+          "NOT /instameets/*",
+          "NOT /instameets",
+          "NOT /android/*",
+          "NOT /android",
+          "NOT /legal/*",
+          "NOT /legal",
+          "NOT /business/*",
+          "NOT /business",
+          "NOT /oauth/authorize/*",
+          "NOT /oauth/authorize",
+          "NOT /oauth/accesstoken/*",
+          "NOT /oauth/accesstoken",
+          "NOT /_n/emaillogin/*",
+          "NOT /_n/emaillogin",
+          "NOT /_n/smslogin/*",
+          "NOT /_n/smslogin",
+          "NOT /_n/web_smslogin/*",
+          "NOT /_n/web_smslogin",
+          "NOT /_n/web_emaillogin/*",
+          "NOT /_n/web_emaillogin",
+          "NOT /download/*",
+          "NOT /download",
+          "NOT /emails/*",
+          "NOT /emails",
+          "NOT /enoozer/*",
+          "NOT /enoozer",
+          "NOT /terms/*",
+          "NOT /terms",
+          "NOT /nametag/*",
+          "NOT /nametag",
+          "NOT /donate/*",
+          "NOT /donate",
+          "NOT /fxcal/auth/*",
+          "NOT /fxcal/auth",
+          "NOT /fxcal/reauth_login",
+          "NOT /accounts_center/*",
+          "NOT /accounts_center",
+          "NOT /fxcal/consent/*",
+          "NOT /fxcal/consent",
+          "NOT /wifiauth/*",
+          "NOT /wifiauth",
+          "NOT /accounts/signup/*",
+          "NOT /accounts/signup",
+          "NOT /accounts/disavow/*",
+          "NOT /accounts/disavow",
+          "NOT /accounts/hacked_lock_redirect/*",
+          "NOT /accounts/hacked_lock_redirect",
+          "NOT /payments/redirect_from_paypal/*",
+          "NOT /payments/redirect_from_paypal",
+          "NOT /threads/sso/*",
+          "NOT /threads/sso",
+          "NOT /payments/3ds_cardinal_init/*",
+          "NOT /payments/3ds_cardinal_init/",
+          "NOT /payments/3ds_cardinal_stepup_complete/*",
+          "NOT /payments/3ds_cardinal_stepup_complete/",
+          "NOT /account/*",
+          "NOT /account",
+          "NOT /accounts/login/*",
+          "NOT /accounts/login",
+          "NOT /accounts/log_in/*",
+          "NOT /accounts/log_in",
+          "NOT /aymh/redirect-cycle/*",
+          "NOT /aymh/redirect-cycle",
+          "NOT /accounts/*/confirm_support_request/*",
+          "NOT /accounts/*/confirm_support_request",
+          "NOT /*/links/*",
+          "NOT /*/links",
+          "NOT /web/*",
+          "NOT /web",
+          "NOT /b/*",
+          "NOT /oauth/oidc/*",
+          "NOT /oauth/oidc",
+          "NOT /fbsurvey/authorize_user/*",
+          "NOT /fbsurvey/authorization_complete/*",
+          "NOT /fbsurvey/confirm_user/*",
+          "/*"
+        ]
+      },
+      {
+        "appIDs": [
+          "MH9GU9K5PX.com.burbn.prime.localDevelopment",
+          "3NW3KR6Q88.com.burbn.prime.master",
+          "3NW3KR6Q88.com.burbn.prime.rc",
+          "MH9GU9K5PX.com.burbn.prime"
+        ],
+        "components": [
+          {
+            "#": "weblink",
+            "exclude": true,
+            "comment": "exclude uri's with weblink fragment"
+          },
+          {
+            "/": "/reels/*"
+          },
+          {
+            "/": "/reel/*"
+          },
+          {
+            "/": "/share/p/*",
+            "exclude": true
+          },
+          {
+            "/": "/share/stories/*",
+            "exclude": true
+          },
+          {
+            "/": "/share/*"
+          },
+          {
+            "/": "/share/reel/*"
+          }
+        ]
+      }
+    ]
+  }
+}
