@@ -203,10 +203,6 @@
             "exclude": true
           },
           {
-            "/": "/accounts_center/*",
-            "exclude": true
-          },
-          {
             "/": "/fxcal/consent/*",
             "exclude": true
           },
@@ -399,8 +395,6 @@
           "NOT /fxcal/auth/*",
           "NOT /fxcal/auth",
           "NOT /fxcal/reauth_login",
-          "NOT /accounts_center/*",
-          "NOT /accounts_center",
           "NOT /fxcal/consent/*",
           "NOT /fxcal/consent",
           "NOT /wifiauth/*",
@@ -524,8 +518,6 @@
           "NOT /fxcal/auth/*",
           "NOT /fxcal/auth",
           "NOT /fxcal/reauth_login",
-          "NOT /accounts_center/*",
-          "NOT /accounts_center",
           "NOT /fxcal/consent/*",
           "NOT /fxcal/consent",
           "NOT /wifiauth/*",
