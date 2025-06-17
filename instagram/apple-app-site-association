@@ -295,6 +295,10 @@
             "exclude": true
           },
           {
+            "/": "/ig_payout_hub/*",
+            "exclude": true
+          },
+          {
             "/": "/oauth_account_linking/test_universal_links/*"
           },
           {
@@ -430,6 +434,7 @@
           "NOT /b/*",
           "NOT /oauth/oidc/*",
           "NOT /oauth/oidc",
+          "NOT /ig_payout_hub/*",
           "NOT /fbsurvey/authorize_user/*",
           "NOT /fbsurvey/authorization_complete/*",
           "NOT /fbsurvey/confirm_user/*",
@@ -553,6 +558,7 @@
           "NOT /b/*",
           "NOT /oauth/oidc/*",
           "NOT /oauth/oidc",
+          "NOT /ig_payout_hub/*",
           "NOT /fbsurvey/authorize_user/*",
           "NOT /fbsurvey/authorization_complete/*",
           "NOT /fbsurvey/confirm_user/*",
