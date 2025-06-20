@@ -282,6 +282,10 @@
             "exclude": true
           },
           {
+            "/": "/ig_payout_hub/*",
+            "exclude": true
+          },
+          {
             "/": "/*"
           },
           {
@@ -292,10 +296,6 @@
           },
           {
             "/": "/oauth/oidc/*",
-            "exclude": true
-          },
-          {
-            "/": "/ig_payout_hub/*",
             "exclude": true
           },
           {
