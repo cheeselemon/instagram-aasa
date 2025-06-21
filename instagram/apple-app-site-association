@@ -175,6 +175,10 @@
             "exclude": true
           },
           {
+            "/": "/_n/shared_access*",
+            "exclude": true
+          },
+          {
             "/": "/download/*",
             "exclude": true
           },
@@ -286,9 +290,6 @@
             "exclude": true
           },
           {
-            "/": "/*"
-          },
-          {
             "/": "/preferred_businesses/link_account/*"
           },
           {
@@ -314,6 +315,10 @@
           },
           {
             "/": "/sandwich_survey/redirect/*"
+          },
+          {
+            "/": "/*",
+            "comment": "allow all other paths to open in the app"
           }
         ]
       },
@@ -384,6 +389,7 @@
           "NOT /_n/web_smslogin",
           "NOT /_n/web_emaillogin/*",
           "NOT /_n/web_emaillogin",
+          "NOT /_n/shared_access*",
           "NOT /download/*",
           "NOT /download",
           "NOT /emails/*",
@@ -509,6 +515,7 @@
           "NOT /_n/web_smslogin",
           "NOT /_n/web_emaillogin/*",
           "NOT /_n/web_emaillogin",
+          "NOT /_n/shared_access*",
           "NOT /download/*",
           "NOT /download",
           "NOT /emails/*",
