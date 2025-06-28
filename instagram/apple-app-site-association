@@ -317,6 +317,10 @@
             "/": "/sandwich_survey/redirect/*"
           },
           {
+            "/": "/activate/*",
+            "exclude": true
+          },
+          {
             "/": "/*",
             "comment": "allow all other paths to open in the app"
           }
