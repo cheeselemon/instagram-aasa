@@ -324,10 +324,6 @@
             "exclude": true
           },
           {
-            "/": "/profile_change_disavow/*",
-            "exclude": true
-          },
-          {
             "/": "/*",
             "comment": "allow all other paths to open in the app"
           }
@@ -456,8 +452,6 @@
           "NOT /fbsurvey/authorize_user/*",
           "NOT /fbsurvey/authorization_complete/*",
           "NOT /fbsurvey/confirm_user/*",
-          "NOT /profile_change_disavow/*",
-          "NOT /profile_change_disavow",
           "/*"
         ]
       },
@@ -584,8 +578,6 @@
           "NOT /fbsurvey/authorize_user/*",
           "NOT /fbsurvey/authorization_complete/*",
           "NOT /fbsurvey/confirm_user/*",
-          "NOT /profile_change_disavow/*",
-          "NOT /profile_change_disavow",
           "/*"
         ]
       },
