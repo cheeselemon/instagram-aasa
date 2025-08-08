@@ -324,6 +324,10 @@
             "exclude": true
           },
           {
+            "/": "/_n/school_partnerships/*",
+            "exclude": true
+          },
+          {
             "/": "/*",
             "comment": "allow all other paths to open in the app"
           }
