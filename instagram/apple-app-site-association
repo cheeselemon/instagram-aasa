@@ -306,7 +306,7 @@
             "/": "/oauth_account_linking_mobile/login_redirect/*"
           },
           {
-            "/": "/oauth_account_linking/login_redirect/*"
+            "/": "/oauth_account_linking/login_redirect"
           },
           {
             "/": "/fbsurvey/authorize_user/*",
