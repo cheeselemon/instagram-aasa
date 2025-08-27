@@ -320,6 +320,10 @@
             "/": "/sandwich_survey/redirect/*"
           },
           {
+            "/": "/activate/*",
+            "exclude": true
+          },
+          {
             "/": "/_n/school_partnerships/*",
             "exclude": true
           },
