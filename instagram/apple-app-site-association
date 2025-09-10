@@ -219,10 +219,6 @@
             "exclude": true
           },
           {
-            "/": "/accounts/disavow/*",
-            "exclude": true
-          },
-          {
             "/": "/accounts/hacked_lock_redirect/*",
             "exclude": true
           },
@@ -418,8 +414,6 @@
           "NOT /wifiauth",
           "NOT /accounts/signup/*",
           "NOT /accounts/signup",
-          "NOT /accounts/disavow/*",
-          "NOT /accounts/disavow",
           "NOT /accounts/hacked_lock_redirect/*",
           "NOT /accounts/hacked_lock_redirect",
           "NOT /payments/redirect_from_paypal/*",
@@ -544,8 +538,6 @@
           "NOT /wifiauth",
           "NOT /accounts/signup/*",
           "NOT /accounts/signup",
-          "NOT /accounts/disavow/*",
-          "NOT /accounts/disavow",
           "NOT /accounts/hacked_lock_redirect/*",
           "NOT /accounts/hacked_lock_redirect",
           "NOT /payments/redirect_from_paypal/*",
