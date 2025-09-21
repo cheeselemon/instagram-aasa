@@ -322,9 +322,6 @@
           {
             "/": "/*",
             "comment": "allow all other paths to open in the app"
-          },
-          {
-            "/": "/rl/*"
           }
         ]
       },
