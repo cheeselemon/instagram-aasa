@@ -36,4 +36,4 @@ This is an independent educational project tracking publicly available AASA file
 - This repository only tracks publicly accessible AASA files
 - The data is provided for educational and reference purposes only
 - While we strive for accuracy, the data may not always be up-to-date
-- Users should always verify against Instagram's current AASA file for production use 
+- Users should always verify against Instagram's current AASA file for production use
