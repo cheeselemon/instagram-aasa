@@ -207,6 +207,10 @@
             "exclude": true
           },
           {
+            "/": "/fxcal/reauth_login",
+            "exclude": true
+          },
+          {
             "/": "/fxcal/consent/*",
             "exclude": true
           },
