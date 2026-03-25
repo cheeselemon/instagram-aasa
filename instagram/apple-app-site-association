@@ -328,6 +328,14 @@
             "exclude": true
           },
           {
+            "/": "/ad_tools/*",
+            "?": {
+              "context": "autoreload_upsell_aymt_ios_self_profile_megaphone"
+            },
+            "exclude": true,
+            "comment": "exclude autoreload upsell from deeplinks to keep user on web"
+          },
+          {
             "/": "/*",
             "comment": "allow all other paths to open in the app"
           }
