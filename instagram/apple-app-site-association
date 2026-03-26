@@ -24,6 +24,26 @@
     "details": [
       {
         "appIDs": [
+          "MH9GU9K5PX.com.burbn.basel.localDevelopment",
+          "3NW3KR6Q88.com.burbn.basel.master",
+          "3NW3KR6Q88.com.burbn.basel.rc"
+        ],
+        "components": [
+          {
+            "#": "weblink",
+            "exclude": true,
+            "comment": "exclude weblink fragment"
+          },
+          {
+            "/": "/activate_device/edits"
+          },
+          {
+            "/": "/activate_device/edits/*"
+          }
+        ]
+      },
+      {
+        "appIDs": [
           "3NW3KR6Q88.com.facebook.InstagramInHouse",
           "MH9GU9K5PX.com.burbn.instagram"
         ],
